@@ -1,0 +1,19 @@
+{{template "base" .}}
+
+{{define "title"}}
+    Login 
+{{end}}
+
+{{define "main"}}    
+    <h1>Login</h1>       
+    <form action="/login" method="POST">
+        <fieldset>
+            <legend>Login</legend>
+            Username: <input type="text">
+            <br><br>
+            Password: <input type="password">
+            <br><br>
+            <a href="/templates/home.html">Login</a>
+        </fieldset>
+    </form>
+{{end}} 

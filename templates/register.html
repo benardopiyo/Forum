@@ -1,0 +1,28 @@
+{{template "base" .}}
+
+{{define "title"}}
+    Register
+{{end}}
+
+{{define "main"}}    
+    <h1>Register</h1>       
+    <form action="/register" method="POST">
+       <fieldset>
+        <legend>Personal Information</legend>
+        Name: <input type="text" placeholder="Enter name">
+        <br><br>
+        Surname: <input type="text" placeholder="Enter username">
+        <br><br>
+        Email: <input type="email" placeholder="Enter email">
+        <br><br>
+        Password: <input type="password" placeholder="Enter password">
+        <br><br>
+        Confirm Password: <input type="password" placeholder="Confirn password">
+       </fieldset>
+       <br><br>
+
+       <fieldset>
+        <a href="/">Register</a>
+       </fieldset>
+    </form>
+{{end}}

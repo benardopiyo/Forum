@@ -29,3 +29,25 @@ func Home(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Error executing template", http.StatusInternalServerError)
 	}
 }
+
+func Register(w http.ResponseWriter, r *http.Request) {
+	// if r.URL.Path != "/register" {
+	// 	http.Error(w, "Wrong register path", http.StatusNotFound)
+	// 	return
+	// }	
+	errExec := tmpl.ExecuteTemplate(w, "register.html", nil)
+	if errExec != nil {
+		http.Error(w, "Error executing template", http.StatusInternalServerError)
+	}
+}
+
+func Login(w http.ResponseWriter, r *http.Request) {
+	// if r.URL.Path != "/login" {
+	// 	http.Error(w, "Wrong login path", http.StatusNotFound)
+	// 	return
+	// }	
+	errExec := tmpl.ExecuteTemplate(w, "login.html", nil)
+	if errExec != nil {
+		http.Error(w, "Error executing template", http.StatusInternalServerError)
+	}
+}
