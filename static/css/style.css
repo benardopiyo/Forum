@@ -79,10 +79,7 @@ textarea, input:not([type="submit"]) {
 }
 
 header {
-    background-image: -webkit-linear-gradient(left, #34495e, #34495e 25%, #9b59b6 25%, #9b59b6 35%, #3498db 35%, #3498db 45%, #62cb31 45%, #62cb31 55%, #ffb606 55%, #ffb606 65%, #e67e22 65%, #e67e22 75%, #e74c3c 85%, #e74c3c 85%, #c0392b 85%, #c0392b 100%);
-    background-image: -moz-linear-gradient(left, #34495e, #34495e 25%, #9b59b6 25%, #9b59b6 35%, #3498db 35%, #3498db 45%, #62cb31 45%, #62cb31 55%, #ffb606 55%, #ffb606 65%, #e67e22 65%, #e67e22 75%, #e74c3c 85%, #e74c3c 85%, #c0392b 85%, #c0392b 100%);
-    background-image: -ms-linear-gradient(left, #34495e, #34495e 25%, #9b59b6 25%, #9b59b6 35%, #3498db 35%, #3498db 45%, #62cb31 45%, #62cb31 55%, #ffb606 55%, #ffb606 65%, #e67e22 65%, #e67e22 75%, #e74c3c 85%, #e74c3c 85%, #c0392b 85%, #c0392b 100%);
-    background-image: linear-gradient(to right, #34495e, #34495e 25%, #9b59b6 25%, #9b59b6 35%, #3498db 35%, #3498db 45%, #62cb31 45%, #62cb31 55%, #ffb606 55%, #ffb606 65%, #e67e22 65%, #e67e22 75%, #e74c3c 85%, #e74c3c 85%, #c0392b 85%, #c0392b 100%);
+    background-image: linear-gradient(to right, #1c2731, #34495e 25%, #0d2a5f 25%, #1a0f1f 35%, #1c5174 35%, #3498db 45%, #112633 45%, #22520d 55%, #7c6d49 55%, #171c49 65%, #5e310a 65%, #573211 75%, #e74c3c 85%, #e74c3c 85%, #461914 85%, #5e170f 100%);
     background-size: 100% 6px;
     background-repeat: no-repeat;
     border-bottom: 1px solid #E4E5E7;
@@ -231,7 +228,7 @@ button {
     background: none;
     padding: 0;
     border: none;
-    color: hsl(101, 90%, 45%);
+    color: hsl(102, 50%, 10%);
     text-decoration: none;
 }
 
