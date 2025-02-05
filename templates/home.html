@@ -1,13 +1,19 @@
 {{template "base" .}}
 
-{{define "title"}}
-    Dashboard
-{{end}}
+{{define "title"}}Home{{end}}
 
 {{define "main"}}
 <h1>Welcome to Forum</h1>
 
-<h2>Categories</h2>
-
+<fieldset>
+    <legend>Categories</legend>
+    <select id="category">
+        <option value="post">Economy</option>
+        <option value="">Tech</option>
+        <option value="">Sports</option>
+        <option value="">Politics</option>
+        <option value="">Business</option>
+    </select>
+</fieldset>
 
 {{end}}
