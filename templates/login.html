@@ -1,19 +1,18 @@
 {{template "base" .}}
 
-{{define "title"}}
-    Login 
-{{end}}
+{{define "title"}}Login{{end}}
 
-{{define "main"}}    
-    <h1>Login</h1>       
-    <form action="/login" method="POST">
+{{define "main"}}         
+    <form action="/login" method="POST" novalidate>
         <fieldset>
             <legend>Login</legend>
-            Username: <input type="text">
+            <label>Email:</label> 
+            <input type="email">
             <br><br>
-            Password: <input type="password">
+            <label>Password:</label>
+            <input type="password">
             <br><br>
-            <a href="/templates/home.html">Login</a>
+            <a href="/templates/dashboard.html">Login</a>
         </fieldset>
     </form>
 {{end}} 
