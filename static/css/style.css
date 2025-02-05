@@ -1,4 +1,31 @@
 body {
-    background-color: red;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
+
+header{
+    text-align: right;
+    padding: 5%;
+
+
+}
+
+footer {
+    text-align: left;
+    padding: 10px;
+}
+
+h1 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
     color: white;
 }
