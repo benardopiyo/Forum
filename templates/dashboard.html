@@ -1,0 +1,24 @@
+{{template "base" .}}
+
+{{define "title"}}Dashboard{{end}}
+
+{{define "main"}}
+<fieldset>
+    <legend>Categories</legend>
+    <select id="category">
+        <option value="post">Economy</option>
+        <option value="">Tech</option>
+        <option value="">Sports</option>
+        <option value="">Politics</option>
+        <option value="">Business</option>
+    </select>
+</fieldset>
+
+<script>
+    document.getElementById("category").addEventListener("change", function() {
+        if (this.value === "post") {
+            window,location.href = "/post"
+        }
+    });
+</script>
+{{end}}
