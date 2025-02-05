@@ -27,5 +27,10 @@ p {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 10px;
 }
+ a:hover {
+    background-color: green;
+ }

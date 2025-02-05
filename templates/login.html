@@ -3,16 +3,19 @@
 {{define "title"}}Login{{end}}
 
 {{define "main"}}         
-    <form action="/login" method="POST" novalidate>
+    <form action="/login" method="POST">
         <fieldset>
-            <legend>Login</legend>
-            <label>Email:</label> 
+            <legend>Welcome to Forum!</legend>
+            <label>Email or Username:</label> 
             <input type="email">
             <br><br>
             <label>Password:</label>
             <input type="password">
             <br><br>
-            <a href="/templates/dashboard.html">Login</a>
+            <p>Forgot Password? <a href="/">Click here!</a></p>
+            <br>
+            <p>New here? <a href="/register">Register!</a></p>
+            <a href="/">Sign In</a>
         </fieldset>
     </form>
 {{end}} 
